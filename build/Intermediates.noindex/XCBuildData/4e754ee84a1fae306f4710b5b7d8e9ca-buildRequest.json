@@ -1,0 +1,57 @@
+{
+  "_buildCommand2" : {
+    "command" : "build",
+    "skipDependencies" : false,
+    "style" : "buildAndRun"
+  },
+  "buildCommand" : "build",
+  "configuredTargets" : [
+    {
+      "guid" : "b082cd743901cfeea9743e31b3bc7d63f99a4aecf7b9cad8b879d4d2ab869888"
+    }
+  ],
+  "containerPath" : "/Users/kzalevskaia/Desktop/Project Swift 1.5.4/Project Swift 1.5.4.xcodeproj",
+  "continueBuildingAfterErrors" : false,
+  "enableIndexBuildArena" : false,
+  "hideShellScriptEnvironment" : false,
+  "parameters" : {
+    "action" : "build",
+    "activeArchitecture" : "x86_64",
+    "activeRunDestination" : {
+      "disableOnlyActiveArch" : false,
+      "platform" : "macosx",
+      "sdk" : "macosx12.3",
+      "sdkVariant" : "macos",
+      "supportedArchitectures" : [
+        "x86_64h",
+        "x86_64"
+      ],
+      "targetArchitecture" : "x86_64"
+    },
+    "arenaInfo" : {
+      "buildIntermediatesPath" : "/Users/kzalevskaia/Desktop/Project Swift 1.5.4/build/Intermediates.noindex",
+      "buildProductsPath" : "/Users/kzalevskaia/Desktop/Project Swift 1.5.4/build/Products",
+      "derivedDataPath" : "/Users/kzalevskaia/DerivedData",
+      "indexDataStoreFolderPath" : "/Users/kzalevskaia/DerivedData/Project_Swift_1.5.4-asnckcbpmxkvunfceoouazxqfkah/Index/DataStore",
+      "indexEnableDataStore" : true,
+      "indexPCHPath" : "/Users/kzalevskaia/DerivedData/Project_Swift_1.5.4-asnckcbpmxkvunfceoouazxqfkah/Index/PrecompiledHeaders",
+      "pchPath" : "/Users/kzalevskaia/Desktop/Project Swift 1.5.4/build/Intermediates.noindex/PrecompiledHeaders"
+    },
+    "configurationName" : "Debug",
+    "overrides" : {
+      "synthesized" : {
+        "table" : {
+          "ENABLE_PREVIEWS" : "NO"
+        }
+      }
+    }
+  },
+  "schemeCommand" : "launch",
+  "schemeCommand2" : "launch",
+  "shouldCollectMetrics" : false,
+  "showNonLoggedProgress" : true,
+  "useDryRun" : false,
+  "useImplicitDependencies" : true,
+  "useLegacyBuildLocations" : false,
+  "useParallelTargets" : true
+}

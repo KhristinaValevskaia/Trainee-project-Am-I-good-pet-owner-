@@ -1,0 +1,711 @@
+{
+  "kind": "Root",
+  "name": "TopLevel",
+  "printedName": "TopLevel",
+  "children": [
+    {
+      "kind": "Import",
+      "name": "Foundation",
+      "printedName": "Foundation",
+      "declKind": "Import",
+      "moduleName": "Project_Swift_1_5_4",
+      "declAttributes": [
+        "RawDocComment"
+      ]
+    },
+    {
+      "kind": "TypeDecl",
+      "name": "Question",
+      "printedName": "Question",
+      "children": [
+        {
+          "kind": "Var",
+          "name": "question",
+          "printedName": "question",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "String",
+              "printedName": "Swift.String",
+              "usr": "s:SS"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:19Project_Swift_1_5_48QuestionV8question33_685303B3FAECBBD6B268F292F20CFD01LLSSvp",
+          "mangledName": "$s19Project_Swift_1_5_48QuestionV8question33_685303B3FAECBBD6B268F292F20CFD01LLSSvp",
+          "moduleName": "Project_Swift_1_5_4",
+          "isInternal": true,
+          "declAttributes": [
+            "HasStorage",
+            "AccessControl"
+          ],
+          "fixedbinaryorder": 0,
+          "hasStorage": true
+        },
+        {
+          "kind": "Var",
+          "name": "param1",
+          "printedName": "param1",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Int",
+              "printedName": "Swift.Int",
+              "usr": "s:Si"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:19Project_Swift_1_5_48QuestionV6param133_685303B3FAECBBD6B268F292F20CFD01LLSivp",
+          "mangledName": "$s19Project_Swift_1_5_48QuestionV6param133_685303B3FAECBBD6B268F292F20CFD01LLSivp",
+          "moduleName": "Project_Swift_1_5_4",
+          "isInternal": true,
+          "declAttributes": [
+            "HasStorage",
+            "AccessControl"
+          ],
+          "fixedbinaryorder": 1,
+          "hasStorage": true
+        },
+        {
+          "kind": "Var",
+          "name": "param2",
+          "printedName": "param2",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Int",
+              "printedName": "Swift.Int",
+              "usr": "s:Si"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:19Project_Swift_1_5_48QuestionV6param233_685303B3FAECBBD6B268F292F20CFD01LLSivp",
+          "mangledName": "$s19Project_Swift_1_5_48QuestionV6param233_685303B3FAECBBD6B268F292F20CFD01LLSivp",
+          "moduleName": "Project_Swift_1_5_4",
+          "isInternal": true,
+          "declAttributes": [
+            "HasStorage",
+            "AccessControl"
+          ],
+          "fixedbinaryorder": 2,
+          "hasStorage": true
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init(question:param1:param2:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Question",
+              "printedName": "Project_Swift_1_5_4.Question",
+              "usr": "s:19Project_Swift_1_5_48QuestionV"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "String",
+              "printedName": "Swift.String",
+              "usr": "s:SS"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Int",
+              "printedName": "Swift.Int",
+              "usr": "s:Si"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Int",
+              "printedName": "Swift.Int",
+              "usr": "s:Si"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "s:19Project_Swift_1_5_48QuestionV8question6param16param2ACSS_S2itcfc",
+          "mangledName": "$s19Project_Swift_1_5_48QuestionV8question6param16param2ACSS_S2itcfc",
+          "moduleName": "Project_Swift_1_5_4",
+          "init_kind": "Designated"
+        },
+        {
+          "kind": "Function",
+          "name": "setQuestion",
+          "printedName": "setQuestion(_:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "String",
+              "printedName": "Swift.String",
+              "usr": "s:SS"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:19Project_Swift_1_5_48QuestionV03setC0yySSF",
+          "mangledName": "$s19Project_Swift_1_5_48QuestionV03setC0yySSF",
+          "moduleName": "Project_Swift_1_5_4",
+          "declAttributes": [
+            "Mutating"
+          ],
+          "funcSelfKind": "Mutating"
+        },
+        {
+          "kind": "Function",
+          "name": "getQuestion",
+          "printedName": "getQuestion()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "String",
+              "printedName": "Swift.String",
+              "usr": "s:SS"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:19Project_Swift_1_5_48QuestionV03getC0SSyF",
+          "mangledName": "$s19Project_Swift_1_5_48QuestionV03getC0SSyF",
+          "moduleName": "Project_Swift_1_5_4",
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "setParam1",
+          "printedName": "setParam1(_:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Int",
+              "printedName": "Swift.Int",
+              "usr": "s:Si"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:19Project_Swift_1_5_48QuestionV9setParam1yySiF",
+          "mangledName": "$s19Project_Swift_1_5_48QuestionV9setParam1yySiF",
+          "moduleName": "Project_Swift_1_5_4",
+          "declAttributes": [
+            "Mutating"
+          ],
+          "funcSelfKind": "Mutating"
+        },
+        {
+          "kind": "Function",
+          "name": "getParam1",
+          "printedName": "getParam1()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Int",
+              "printedName": "Swift.Int",
+              "usr": "s:Si"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:19Project_Swift_1_5_48QuestionV9getParam1SiyF",
+          "mangledName": "$s19Project_Swift_1_5_48QuestionV9getParam1SiyF",
+          "moduleName": "Project_Swift_1_5_4",
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "setParam2",
+          "printedName": "setParam2(_:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Int",
+              "printedName": "Swift.Int",
+              "usr": "s:Si"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:19Project_Swift_1_5_48QuestionV9setParam2yySiF",
+          "mangledName": "$s19Project_Swift_1_5_48QuestionV9setParam2yySiF",
+          "moduleName": "Project_Swift_1_5_4",
+          "declAttributes": [
+            "Mutating"
+          ],
+          "funcSelfKind": "Mutating"
+        },
+        {
+          "kind": "Function",
+          "name": "getParam2",
+          "printedName": "getParam2()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Int",
+              "printedName": "Swift.Int",
+              "usr": "s:Si"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:19Project_Swift_1_5_48QuestionV9getParam2SiyF",
+          "mangledName": "$s19Project_Swift_1_5_48QuestionV9getParam2SiyF",
+          "moduleName": "Project_Swift_1_5_4",
+          "funcSelfKind": "NonMutating"
+        }
+      ],
+      "declKind": "Struct",
+      "usr": "s:19Project_Swift_1_5_48QuestionV",
+      "mangledName": "$s19Project_Swift_1_5_48QuestionV",
+      "moduleName": "Project_Swift_1_5_4",
+      "conformances": [
+        {
+          "kind": "Conformance",
+          "name": "Sendable",
+          "printedName": "Sendable",
+          "usr": "s:s8SendableP",
+          "mangledName": "$ss8SendableP"
+        }
+      ]
+    },
+    {
+      "kind": "TypeDecl",
+      "name": "Survey",
+      "printedName": "Survey",
+      "children": [
+        {
+          "kind": "Var",
+          "name": "myQuestionsmyParams",
+          "printedName": "myQuestionsmyParams",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Array",
+              "printedName": "[Project_Swift_1_5_4.Question]",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Question",
+                  "printedName": "Project_Swift_1_5_4.Question",
+                  "usr": "s:19Project_Swift_1_5_48QuestionV"
+                }
+              ],
+              "usr": "s:Sa"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:19Project_Swift_1_5_46SurveyV19myQuestionsmyParamsSayAA8QuestionVGvp",
+          "mangledName": "$s19Project_Swift_1_5_46SurveyV19myQuestionsmyParamsSayAA8QuestionVGvp",
+          "moduleName": "Project_Swift_1_5_4",
+          "declAttributes": [
+            "HasInitialValue",
+            "HasStorage"
+          ],
+          "fixedbinaryorder": 0,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Array",
+                  "printedName": "[Project_Swift_1_5_4.Question]",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "Question",
+                      "printedName": "Project_Swift_1_5_4.Question",
+                      "usr": "s:19Project_Swift_1_5_48QuestionV"
+                    }
+                  ],
+                  "usr": "s:Sa"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:19Project_Swift_1_5_46SurveyV19myQuestionsmyParamsSayAA8QuestionVGvg",
+              "mangledName": "$s19Project_Swift_1_5_46SurveyV19myQuestionsmyParamsSayAA8QuestionVGvg",
+              "moduleName": "Project_Swift_1_5_4",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Array",
+                  "printedName": "[Project_Swift_1_5_4.Question]",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "Question",
+                      "printedName": "Project_Swift_1_5_4.Question",
+                      "usr": "s:19Project_Swift_1_5_48QuestionV"
+                    }
+                  ],
+                  "usr": "s:Sa"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:19Project_Swift_1_5_46SurveyV19myQuestionsmyParamsSayAA8QuestionVGvs",
+              "mangledName": "$s19Project_Swift_1_5_46SurveyV19myQuestionsmyParamsSayAA8QuestionVGvs",
+              "moduleName": "Project_Swift_1_5_4",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "set"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Modify",
+              "printedName": "Modify()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:19Project_Swift_1_5_46SurveyV19myQuestionsmyParamsSayAA8QuestionVGvM",
+              "mangledName": "$s19Project_Swift_1_5_46SurveyV19myQuestionsmyParamsSayAA8QuestionVGvM",
+              "moduleName": "Project_Swift_1_5_4",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "_modify"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "totalScore",
+          "printedName": "totalScore",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Array",
+              "printedName": "[Swift.Int]",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Int",
+                  "printedName": "Swift.Int",
+                  "usr": "s:Si"
+                }
+              ],
+              "usr": "s:Sa"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:19Project_Swift_1_5_46SurveyV10totalScoreSaySiGvp",
+          "mangledName": "$s19Project_Swift_1_5_46SurveyV10totalScoreSaySiGvp",
+          "moduleName": "Project_Swift_1_5_4",
+          "declAttributes": [
+            "HasInitialValue",
+            "HasStorage"
+          ],
+          "fixedbinaryorder": 1,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Array",
+                  "printedName": "[Swift.Int]",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "Int",
+                      "printedName": "Swift.Int",
+                      "usr": "s:Si"
+                    }
+                  ],
+                  "usr": "s:Sa"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:19Project_Swift_1_5_46SurveyV10totalScoreSaySiGvg",
+              "mangledName": "$s19Project_Swift_1_5_46SurveyV10totalScoreSaySiGvg",
+              "moduleName": "Project_Swift_1_5_4",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Array",
+                  "printedName": "[Swift.Int]",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "Int",
+                      "printedName": "Swift.Int",
+                      "usr": "s:Si"
+                    }
+                  ],
+                  "usr": "s:Sa"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:19Project_Swift_1_5_46SurveyV10totalScoreSaySiGvs",
+              "mangledName": "$s19Project_Swift_1_5_46SurveyV10totalScoreSaySiGvs",
+              "moduleName": "Project_Swift_1_5_4",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "set"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Modify",
+              "printedName": "Modify()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:19Project_Swift_1_5_46SurveyV10totalScoreSaySiGvM",
+              "mangledName": "$s19Project_Swift_1_5_46SurveyV10totalScoreSaySiGvM",
+              "moduleName": "Project_Swift_1_5_4",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "_modify"
+            }
+          ]
+        },
+        {
+          "kind": "Function",
+          "name": "runTest",
+          "printedName": "runTest()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:19Project_Swift_1_5_46SurveyV7runTestyyF",
+          "mangledName": "$s19Project_Swift_1_5_46SurveyV7runTestyyF",
+          "moduleName": "Project_Swift_1_5_4",
+          "declAttributes": [
+            "Mutating"
+          ],
+          "funcSelfKind": "Mutating"
+        },
+        {
+          "kind": "Function",
+          "name": "printResult",
+          "printedName": "printResult()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:19Project_Swift_1_5_46SurveyV11printResultyyF",
+          "mangledName": "$s19Project_Swift_1_5_46SurveyV11printResultyyF",
+          "moduleName": "Project_Swift_1_5_4",
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "addQuestion",
+          "printedName": "addQuestion(quest:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Question",
+              "printedName": "Project_Swift_1_5_4.Question",
+              "usr": "s:19Project_Swift_1_5_48QuestionV"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:19Project_Swift_1_5_46SurveyV11addQuestion5questyAA0E0V_tF",
+          "mangledName": "$s19Project_Swift_1_5_46SurveyV11addQuestion5questyAA0E0V_tF",
+          "moduleName": "Project_Swift_1_5_4",
+          "declAttributes": [
+            "Mutating"
+          ],
+          "funcSelfKind": "Mutating"
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init(myQuestionsmyParams:totalScore:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Survey",
+              "printedName": "Project_Swift_1_5_4.Survey",
+              "usr": "s:19Project_Swift_1_5_46SurveyV"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Array",
+              "printedName": "[Project_Swift_1_5_4.Question]",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Question",
+                  "printedName": "Project_Swift_1_5_4.Question",
+                  "usr": "s:19Project_Swift_1_5_48QuestionV"
+                }
+              ],
+              "hasDefaultArg": true,
+              "usr": "s:Sa"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Array",
+              "printedName": "[Swift.Int]",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Int",
+                  "printedName": "Swift.Int",
+                  "usr": "s:Si"
+                }
+              ],
+              "hasDefaultArg": true,
+              "usr": "s:Sa"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "s:19Project_Swift_1_5_46SurveyV19myQuestionsmyParams10totalScoreACSayAA8QuestionVG_SaySiGtcfc",
+          "mangledName": "$s19Project_Swift_1_5_46SurveyV19myQuestionsmyParams10totalScoreACSayAA8QuestionVG_SaySiGtcfc",
+          "moduleName": "Project_Swift_1_5_4",
+          "implicit": true,
+          "init_kind": "Designated"
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Survey",
+              "printedName": "Project_Swift_1_5_4.Survey",
+              "usr": "s:19Project_Swift_1_5_46SurveyV"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "s:19Project_Swift_1_5_46SurveyVACycfc",
+          "mangledName": "$s19Project_Swift_1_5_46SurveyVACycfc",
+          "moduleName": "Project_Swift_1_5_4",
+          "implicit": true,
+          "init_kind": "Designated"
+        }
+      ],
+      "declKind": "Struct",
+      "usr": "s:19Project_Swift_1_5_46SurveyV",
+      "mangledName": "$s19Project_Swift_1_5_46SurveyV",
+      "moduleName": "Project_Swift_1_5_4",
+      "conformances": [
+        {
+          "kind": "Conformance",
+          "name": "Sendable",
+          "printedName": "Sendable",
+          "usr": "s:s8SendableP",
+          "mangledName": "$ss8SendableP"
+        }
+      ]
+    },
+    {
+      "kind": "Var",
+      "name": "startSurvey",
+      "printedName": "startSurvey",
+      "children": [
+        {
+          "kind": "TypeNominal",
+          "name": "Survey",
+          "printedName": "Project_Swift_1_5_4.Survey",
+          "usr": "s:19Project_Swift_1_5_46SurveyV"
+        }
+      ],
+      "declKind": "Var",
+      "usr": "s:19Project_Swift_1_5_411startSurveyAA0D0Vvp",
+      "mangledName": "$s19Project_Swift_1_5_411startSurveyAA0D0Vvp",
+      "moduleName": "Project_Swift_1_5_4",
+      "declAttributes": [
+        "HasInitialValue",
+        "HasStorage"
+      ],
+      "hasStorage": true
+    },
+    {
+      "kind": "Var",
+      "name": "newData1",
+      "printedName": "newData1",
+      "children": [
+        {
+          "kind": "TypeNominal",
+          "name": "Question",
+          "printedName": "Project_Swift_1_5_4.Question",
+          "usr": "s:19Project_Swift_1_5_48QuestionV"
+        }
+      ],
+      "declKind": "Var",
+      "usr": "s:19Project_Swift_1_5_48newData1AA8QuestionVvp",
+      "mangledName": "$s19Project_Swift_1_5_48newData1AA8QuestionVvp",
+      "moduleName": "Project_Swift_1_5_4",
+      "declAttributes": [
+        "HasInitialValue",
+        "HasStorage"
+      ],
+      "hasStorage": true
+    }
+  ],
+  "json_format_version": 6
+}

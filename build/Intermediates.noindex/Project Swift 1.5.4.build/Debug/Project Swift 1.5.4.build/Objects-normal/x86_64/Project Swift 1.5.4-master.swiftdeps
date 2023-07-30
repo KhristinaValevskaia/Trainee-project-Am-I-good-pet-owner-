@@ -1,0 +1,6 @@
+version: "Apple Swift version 5.6.1 (swiftlang-5.6.0.323.66 clang-1316.0.20.12)"
+options: "7c210285ad91bfaec743ad1cdc75c0a36a39d4994ee93a2203d801d0d6081829"
+build_start_time: [1690749217, 514641046]
+build_end_time: [1690749221, 333271026]
+inputs:
+  "/Users/kzalevskaia/Desktop/Project Swift 1.5.4/Project Swift 1.5.4/main.swift": [1690739099, 403173685]
